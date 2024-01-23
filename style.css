@@ -35,7 +35,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* 100% of the viewport height */
+    height: 75vh; 
     text-align: center;
     font-size: 5em;
     font-weight: bold;
@@ -64,4 +64,34 @@ nav {
         font-size: 2em; /* Smaller font for mobile */
         padding: 0 20px; /* Add padding on smaller screens for some spacing */
     }
+}
+
+
+/* Existing styles */
+
+.social-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000080; /* Navy blue background */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white; /* White color icons */
+    font-size: 1.5em; /* Adjust the size as needed */
+}
+
+.social-links a:hover {
+    color: #FEDF00; /* Yellow color on hover */
 }
