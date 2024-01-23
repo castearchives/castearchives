@@ -17,6 +17,7 @@ nav {
 .nav-content {
     color: white;
     text-decoration: none;
+    font-weight:bold;
 }
 
 .caste-nav, .caste {
